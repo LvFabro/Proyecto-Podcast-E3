@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;   
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+.logo{
+    display: flex;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.avatar {
+    height: 70px;
+    margin-top: 2px;
+    border-radius: 100%;
+}
+
+.busqueda {
+    display: flex;
+}
+
+.search {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color: rgb(29, 29, 29);
+    color: whitesmoke;
+  }
+
+.button {
+    background-color: black;
+    border: none;
+}
+
+ 
+  
+
+
+
