@@ -1,0 +1,23 @@
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.accion {
+    color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.aut {
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
