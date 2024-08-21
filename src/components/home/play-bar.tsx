@@ -1,5 +1,5 @@
 import { EllipsisVertical, Pause, Repeat, SkipBack, SkipForward, ThumbsDown, ThumbsUp, Volume2 } from 'lucide-react';
-import styles from '../styles/play-bar.module.css'
+import styles from '../../styles/play-bar.module.css'
 import CardConteiner from './card-conteiner';
 
 function PlayBar() {
@@ -11,9 +11,8 @@ function PlayBar() {
                 <button className={styles.button}><SkipForward color="#ffffff" size={25}/></button>
             </div>
             <div className={styles.name}>
-                <CardConteiner  title={'Billy Idol'} text={'Rebel Yell'} children>
+                <CardConteiner  title={'Billy Idol'} text={'Rebel Yell'} />
                     
-                </CardConteiner>
                 <div className={styles.calification}>
                     <button className={styles.button}><ThumbsDown color="#ffffff" size={25}/></button>
                     <button className={styles.button}><ThumbsUp color="#ffffff" size={25}/></button>
