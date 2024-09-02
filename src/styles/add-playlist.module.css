@@ -1,0 +1,57 @@
+.fields {
+    margin-left: 350px;
+    display: inline-block;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+.fields input {
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    border: none;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
+    border-end-end-radius: 50px;
+    border-start-start-radius: 50px;
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+.fields button {
+    background-color: rgb(29, 29, 29);
+    border-style: solid 1px;
+    border-color: white;
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 130px;
+    color: white;
+    text-align: center;
+    border: none;
+    border-start-end-radius: 50px;
+    border-end-start-radius: 50px;
+    border-end-end-radius: 50px;
+    border-start-start-radius: 50px;
+    margin-bottom: 320px;
+}
+
+.render {
+    display: grid;
+    font-family: sans-serif;
+    position: relative;
+    left: 600px;
+    bottom: 750px;
+}
+
+.render img, p {
+    width: 200px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+

@@ -1,0 +1,42 @@
+.sidebar {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+    overflow-x: hidden;
+    display: block;
+}
+
+.sidebar button {
+    background-color: #111;
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    margin-top: 12px;
+    display:inline-flex;
+    align-items: center;
+    margin: 5px;
+    justify-content: space-between;
+   
+}
+
+.sidebar li {
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar img {
+    width: 30px;
+    height: 30px;
+}
+

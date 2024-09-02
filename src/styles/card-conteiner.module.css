@@ -8,7 +8,14 @@
 }
 
 .title {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
+.title p {
+    text-align: left;
+}
+
+.card div {
+    display: block;
+}
 

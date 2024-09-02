@@ -1,11 +1,13 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Home from './components/home.tsx'
-
+import React from 'react'
+import Main from './components/main.tsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
+  
   <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
+      
+      <Main/>
+      
+  </React.StrictMode>
 )
