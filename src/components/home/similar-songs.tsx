@@ -1,5 +1,4 @@
-import styles from '../styles/similar-songs.module.css'
-
+import styles from '../../styles/similar-songs.module.css'
 const escucharDeNuevo = [
     {imagen : 'https://cdns-images.dzcdn.net/images/cover/04a95dd06db9a2941a47b3c730b34a7d/1900x1900-000000-80-0-0.jpg', accion : 'Volver a escuchar', reproducciones : '54.2M oyentes mensuales'  },
     {imagen : 'https://i.scdn.co/image/ab67616d0000b273a02702f77600ef7f377192e2', accion : 'Volver a escuchar', reproducciones : '10.7M oyentes mensuales'  },

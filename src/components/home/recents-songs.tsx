@@ -1,4 +1,4 @@
-import styles from '../styles/recent-song.module.css'
+import styles from '../../styles/recent-song.module.css'
 
 const recientes = [
     {imagen : 'https://cdns-images.dzcdn.net/images/cover/04a95dd06db9a2941a47b3c730b34a7d/1900x1900-000000-80-0-0.jpg', album : 'Prestigio', autor : 'Daddy Yankee'  },

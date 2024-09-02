@@ -1,4 +1,5 @@
-import styles from "../styles/quick-picks.module.css"
+
+import styles from "../../styles/quick-picks.module.css"
 
 const recientes = [
     {imagen : 'https://cdns-images.dzcdn.net/images/cover/04a95dd06db9a2941a47b3c730b34a7d/1900x1900-000000-80-0-0.jpg', nombre: 'Ven Conmigo', autor : 'Daddy Yankee'  },
@@ -14,8 +15,8 @@ const recientes = [
 function QuickPicksSongs() {
     return (
             <div className={styles.contenedor}>
-                {recientes.map((reciente) => {
-                    return( 
+                {recientes.map( (reciente) => {
+                    return(
                         <div className={styles.card}>
                             <img className={styles.img} src={reciente.imagen} />  
                             <div>

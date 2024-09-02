@@ -1,9 +1,9 @@
 import { ReactNode } from "react";
-import styles from '../styles/card-conteiner.module.css'
+import styles from '../../styles/card-conteiner.module.css'
 
 type CardConteinerProps = {
-    title : String,
-    children : ReactNode,
+    title? : String,
+    children? : ReactNode,
     text? : String
 };
 

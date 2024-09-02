@@ -1,5 +1,5 @@
 import { Search } from "lucide-react";
-import styles from "../styles/header.module.css"
+import styles from "../../styles/header.module.css"
 
 
 function Header() {
