@@ -38,6 +38,10 @@ body {
     transition: border-color 0.3s;
     background-color: rgb(29, 29, 29);
     color: whitesmoke;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
   }
 
 .button {
