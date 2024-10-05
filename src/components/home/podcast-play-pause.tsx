@@ -19,6 +19,7 @@ function ReproducirPodcast( props : SongProp) {
         }
     }
 
+    //Renderizado de cada audio
     return (
         <>
             <audio ref={audioRef}>
